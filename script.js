@@ -26,5 +26,22 @@ function colorize (event){
    }else {
     target.className = 'red'
    }
- }
+}
+ 
+
+
+ const color = document.getElementsByTagName("select")[0]
+
+ color.addEventListener("change", function (event){
+    console.log(event.target.value);
+
+ }) 
+
+ 
+
+
+ 
+
+
+
    
